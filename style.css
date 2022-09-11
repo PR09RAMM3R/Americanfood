@@ -1,0 +1,1208 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+header nav {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .left {
+  width: 40%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 30px;
+}
+
+header nav .left h2 {
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+header nav .right {
+  width: 50%;
+  height: 140px;
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .right .phone-number {
+  width: 480px;
+  height: 50px;
+  display: inline-block;
+  -webkit-transform: translateX(320px);
+          transform: translateX(320px);
+  margin-top: 10px;
+}
+
+header nav .right .phone-number p {
+  margin-left: 80px;
+  margin-top: -40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav .right .menu {
+  margin-left: -230px;
+  margin-top: 60px;
+  width: 100%;
+}
+
+header nav .right .menu ul, header nav .right .menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .right .menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -100px;
+  margin: 20px;
+  color: #000;
+  font-family: fantasy;
+  font-weight: 100;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+header nav .right .menu a:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: yellow;
+}
+
+header .left1 {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-shadow: 3px 3px #fff;
+}
+
+header .left1::before {
+  content: "It's A good time for great taste of burgers";
+  font-weight: 0;
+  padding: 5px;
+  font-size: 20px;
+  text-shadow: 0 0;
+  border: 3px dashed #000;
+}
+
+header .left1::after {
+  content: "week";
+  font-size: 100px;
+  text-shadow: 3px 3px #fff;
+}
+
+header .right1 {
+  width: 800px;
+  height: 700px;
+  border: 1px solid #ffffff00;
+  margin-top: -580px;
+  margin-left: 700px;
+  background-image: url(./img/BurgerImage.png);
+  background-size: 500;
+  background-position-x: -100px;
+  background-position-y: -80px;
+}
+
+header .right1 .narx {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 510px;
+  margin-left: 100px;
+}
+
+header .right1 .narx::before {
+  content: '';
+  width: 150px;
+  height: 150px;
+  left: 812px;
+  top: 526px;
+  position: absolute;
+  border-radius: 50%;
+  border: 4px dashed #fff;
+}
+
+header .right1 .narx h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  margin-left: 45px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+}
+
+header .right1 .narx small {
+  font-size: 20px;
+  margin-left: -10px;
+}
+
+header .right1 .narx h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.information {
+  width: 100%;
+  height: 85vh;
+}
+
+.information .img {
+  width: 680px;
+  height: 485px;
+  border-radius: 10px;
+  background-image: url(./img/Burger.png);
+  background-size: 750px 500px;
+  background-position-x: -10px;
+  background-position-y: -5px;
+  border: 1px solid #ff000000;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.information .img h3 {
+  font-size: 30px;
+  color: #fff;
+  font-family: fantasy;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information .img h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information .img1 {
+  width: 680px;
+  height: 230px;
+  border-radius: 10px;
+  background-image: url(./img/Burger1.png);
+  background-size: 710px 380px;
+  background-position-x: -10px;
+  background-position-y: -100px;
+  border: 1px solid #ff000000;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-left: 800px;
+  margin-top: -485px;
+}
+
+.information .img1 h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: fantasy;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information .img1 h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information .img2 {
+  width: 680px;
+  height: 235px;
+  border-radius: 10px;
+  background-image: url(./img/freshchili.png);
+  background-size: 700px 500px;
+  background-position-x: -10px;
+  background-position-y: -115px;
+  border: 1px solid #ff000000;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-left: 800px;
+  margin-top: 20px;
+}
+
+.information .img2 h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: fantasy;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information .img2 h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 10px 30px;
+}
+
+.information button {
+  width: 220px;
+  height: 50px;
+  background-color: #FFC42D;
+  margin-left: 650px;
+  margin-top: 60px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.information button a {
+  text-decoration: none;
+  color: #000;
+  font-family: fantasy;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.information button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #fff;
+}
+
+.buy {
+  width: 100%;
+  height: 100vh;
+}
+
+.buy .text-buy {
+  width: 100%;
+  height: 150px;
+}
+
+.buy .text-buy h1 {
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buy .text-buy p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+}
+
+.buy .burgers {
+  width: 100%;
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+.buy .burgers .left img, .buy .burgers .right img {
+  margin-top: 33px;
+}
+
+.buy .burgers .bx {
+  width: 400px;
+  height: 550px;
+  margin-top: 50px;
+}
+
+.buy .burgers .bx h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.buy .burgers .bx p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buy .burgers .bx button {
+  width: 200px;
+  height: 50px;
+  background-color: #E01C1D;
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 30px;
+  border: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.buy .burgers .bx button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #000;
+}
+
+.buy .burgers .bx button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: fantasy cursive;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.slider {
+  width: 90%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+  -webkit-box-shadow: 15px 15px 30px -5px #b3b3b3;
+          box-shadow: 15px 15px 30px -5px #b3b3b3;
+}
+
+.slider .left {
+  width: 45%;
+  height: 90%;
+  padding-left: 30px;
+}
+
+.slider .left h4 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.slider .left h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+
+.slider .left p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 45px;
+  margin-top: 30px;
+}
+
+.slider .left .menus {
+  width: 100px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.slider .left .menus .menu1, .slider .left .menus .menu2, .slider .left .menus .menu3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.slider .left .menus .menu1 {
+  background-color: #FFC433;
+  opacity: 0.8;
+}
+
+.slider .right {
+  width: 50%;
+  height: 90%;
+  background: url(./img/Burger&Free.png);
+  background-size: 100% 100%;
+}
+
+.contact_us {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/Burger4.png), url(./img/Free.png);
+  background-repeat: no-repeat;
+  background-position-y: -15px, 210px;
+  background-position-x: 0, 1210px;
+}
+
+.contact_us #contact_us {
+  width: 90%;
+  height: 90vh;
+  margin-left: 75px;
+  margin-top: 100px;
+  background-image: url(./img/Bottle.png);
+  background-repeat: no-repeat;
+  background-position-y: 220px;
+  background-position-x: 50px;
+}
+
+.contact_us #contact_us .top {
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+}
+
+.contact_us #contact_us .top h4 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact_us #contact_us .top h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact_us #contact_us .bottom {
+  width: 65%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 30px;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+
+.contact_us #contact_us .bottom input {
+  width: 400px;
+  height: 70px;
+  border-radius: 10pt;
+  padding-left: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  outline: none;
+  border: 2px solid #b3b3b3;
+}
+
+.contact_us #contact_us .bottom .button {
+  background: red;
+  font-size: 30px;
+  font-family: fantasy;
+  color: #fff;
+  padding: 0;
+  border: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.contact_us #contact_us .bottom .button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #000;
+}
+
+footer {
+  width: 90%;
+  height: 70vh;
+  background: url(./img/backgroundfooter.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+}
+
+footer .left {
+  width: 50%;
+  height: 100%;
+}
+
+footer .left img {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+footer .left h1 {
+  font-size: 50px;
+  font-family: fantasy;
+  font-weight: 100;
+  margin-left: 170px;
+  margin-top: -70px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer .left p {
+  margin-top: 60px;
+  margin-left: 50px;
+  line-height: 35px;
+  font-size: 22px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .left .copyright {
+  font-size: 30px;
+  margin-top: 130px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+footer .right {
+  width: 50%;
+  height: 100%;
+}
+
+footer .right .locat {
+  width: 70%;
+  height: 15%;
+  margin-left: 230px;
+  margin-top: 280px;
+}
+
+footer .right .locat h2 {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .right .socialMedia {
+  width: 25%;
+  height: 10%;
+  margin-top: 130px;
+  margin-left: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-size: cover;
+  }
+  header nav {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header nav .left {
+    width: 40%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px 30px;
+  }
+  header nav .left h2 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  header nav .right {
+    width: 50%;
+    height: 140px;
+    margin-left: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .right .phone-number {
+    width: 480px;
+    height: 50px;
+    display: inline-block;
+    -webkit-transform: translateX(320px);
+            transform: translateX(320px);
+    margin-top: 10px;
+  }
+  header nav .right .phone-number p {
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header nav .right .menu {
+    margin-left: -230px;
+    margin-top: 60px;
+    width: 100%;
+  }
+  header nav .right .menu ul, header nav .right .menu li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .right .menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: -100px;
+    margin: 20px;
+    color: #000;
+    font-family: fantasy;
+    font-weight: 100;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  header nav .right .menu a:hover {
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    color: yellow;
+  }
+  header .left1 {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-shadow: 3px 3px #fff;
+  }
+  header .left1::before {
+    content: "It's A good time for great taste of burgers";
+    font-weight: 0;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 0 0;
+    border: 3px dashed #000;
+  }
+  header .left1::after {
+    content: "week";
+    font-size: 100px;
+    text-shadow: 3px 3px #fff;
+  }
+  header .right1 {
+    width: 800px;
+    height: 700px;
+    border: 1px solid #ffffff00;
+    margin-top: -580px;
+    margin-left: 700px;
+    background-image: url(./img/BurgerImage.png);
+    background-size: 500;
+    background-position-x: -100px;
+    background-position-y: -80px;
+  }
+  header .right1 .narx {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 510px;
+    margin-left: 100px;
+  }
+  header .right1 .narx::before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    left: 812px;
+    top: 526px;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px dashed #fff;
+  }
+  header .right1 .narx h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 45px;
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+  }
+  header .right1 .narx small {
+    font-size: 20px;
+    margin-left: -10px;
+  }
+  header .right1 .narx h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  .information {
+    width: 100%;
+    height: 85vh;
+  }
+  .information .img {
+    width: 680px;
+    height: 485px;
+    border-radius: 10px;
+    background-image: url(./img/Burger.png);
+    background-size: 750px 500px;
+    background-position-x: -10px;
+    background-position-y: -5px;
+    border: 1px solid #ff000000;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  .information .img h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information .img h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information .img1 {
+    width: 680px;
+    height: 230px;
+    border-radius: 10px;
+    background-image: url(./img/Burger1.png);
+    background-size: 710px 380px;
+    background-position-x: -10px;
+    background-position-y: -100px;
+    border: 1px solid #ff000000;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 800px;
+    margin-top: -485px;
+  }
+  .information .img1 h3 {
+    font-size: 25px;
+    color: #fff;
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information .img1 h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information .img2 {
+    width: 680px;
+    height: 235px;
+    border-radius: 10px;
+    background-image: url(./img/freshchili.png);
+    background-size: 700px 500px;
+    background-position-x: -10px;
+    background-position-y: -115px;
+    border: 1px solid #ff000000;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 800px;
+    margin-top: 20px;
+  }
+  .information .img2 h3 {
+    font-size: 25px;
+    color: #fff;
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information .img2 h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .information button {
+    width: 220px;
+    height: 50px;
+    background-color: #FFC42D;
+    margin-left: 650px;
+    margin-top: 60px;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .information button a {
+    text-decoration: none;
+    color: #000;
+    font-family: fantasy;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  .information button:hover {
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    background-color: #fff;
+  }
+  .buy {
+    width: 100%;
+    height: 100vh;
+  }
+  .buy .text-buy {
+    width: 100%;
+    height: 150px;
+  }
+  .buy .text-buy h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .buy .text-buy p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+  }
+  .buy .burgers {
+    width: 100%;
+    height: 640px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    overflow: hidden;
+  }
+  .buy .burgers .left img, .buy .burgers .right img {
+    margin-top: 33px;
+  }
+  .buy .burgers .bx {
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+  }
+  .buy .burgers .bx h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  .buy .burgers .bx p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .buy .burgers .bx button {
+    width: 200px;
+    height: 50px;
+    background-color: #E01C1D;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: none;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .buy .burgers .bx button:hover {
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    background-color: #000;
+  }
+  .buy .burgers .bx button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: fantasy cursive;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .slider {
+    width: 90%;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px auto;
+    -webkit-box-shadow: 15px 15px 30px -5px #b3b3b3;
+            box-shadow: 15px 15px 30px -5px #b3b3b3;
+  }
+  .slider .left {
+    width: 45%;
+    height: 90%;
+    padding-left: 30px;
+  }
+  .slider .left h4 {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .slider .left h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -15px;
+  }
+  .slider .left p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    margin-top: 30px;
+  }
+  .slider .left .menus {
+    width: 100px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 50px;
+  }
+  .slider .left .menus .menu1, .slider .left .menus .menu2, .slider .left .menus .menu3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.2;
+  }
+  .slider .left .menus .menu1 {
+    background-color: #FFC433;
+    opacity: 0.8;
+  }
+  .slider .right {
+    width: 50%;
+    height: 90%;
+    background: url(./img/Burger&Free.png);
+    background-size: 100% 100%;
+  }
+  .contact_us {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Burger4.png), url(./img/Free.png);
+    background-repeat: no-repeat;
+    background-position-y: -15px, 210px;
+    background-position-x: 0, 1210px;
+  }
+  .contact_us #contact_us {
+    width: 90%;
+    height: 90vh;
+    margin-left: 75px;
+    margin-top: 100px;
+    background-image: url(./img/Bottle.png);
+    background-repeat: no-repeat;
+    background-position-y: 220px;
+    background-position-x: 50px;
+  }
+  .contact_us #contact_us .top {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+  }
+  .contact_us #contact_us .top h4 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .contact_us #contact_us .top h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .contact_us #contact_us .bottom {
+    width: 65%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 30px;
+    margin-left: 250px;
+    margin-top: 80px;
+  }
+  .contact_us #contact_us .bottom input {
+    width: 400px;
+    height: 70px;
+    border-radius: 10pt;
+    padding-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid #b3b3b3;
+  }
+  .contact_us #contact_us .bottom .button {
+    background: red;
+    font-size: 30px;
+    font-family: fantasy;
+    color: #fff;
+    padding: 0;
+    border: none;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .contact_us #contact_us .bottom .button:hover {
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    background-color: #000;
+  }
+  footer {
+    width: 90%;
+    height: 70vh;
+    background: url(./img/backgroundfooter.png);
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px auto;
+  }
+  footer .left {
+    width: 50%;
+    height: 100%;
+  }
+  footer .left img {
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  footer .left h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 100;
+    margin-left: 170px;
+    margin-top: -70px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  footer .left p {
+    margin-top: 60px;
+    margin-left: 50px;
+    line-height: 35px;
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer .left .copyright {
+    font-size: 20px;
+    margin-top: 130px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+  }
+  footer .right {
+    width: 50%;
+    height: 100%;
+  }
+  footer .right .locat {
+    width: 70%;
+    height: 15%;
+    margin-left: 230px;
+    margin-top: 280px;
+  }
+  footer .right .locat h2 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer .right .socialMedia {
+    width: 25%;
+    height: 10%;
+    margin-top: 130px;
+    margin-left: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
